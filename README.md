@@ -1,6 +1,6 @@
 # CKAN PivotTable extension 
 
-PivotTable provides extension easy analysis and visualization over tabular data using PivotTable 
+PivotTable provides extension easy analysis and visualization over tabular data using [PivotTable.js](https://github.com/nicolaskruchten/pivottable)
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ activate python virtual env
 clone git repository
 
 ```sh
-git clone https://gitlab.insight-centre.org/egov/ckanext-pivottable.git
+git clone https://github.com/routetopa/ckanext-pivottable.git
 cd ckanext-pivottable
 ```
 
