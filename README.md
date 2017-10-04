@@ -1,6 +1,7 @@
 # CKAN PivotTable extension 
 
-PivotTable provides extension easy analysis and visualization over tabular data using [PivotTable.js]    (https://github.com/nicolaskruchten/pivottable)
+PivotTable provides extension easy analysis and visualization over tabular data using [PivotTable.js]    (https://github.com/nicolaskruchten/pivottable). 
+It allows user to reorganize selected columns/rows to obtain desired view of the data.
 
 ## Prerequisites
 
