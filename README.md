@@ -10,36 +10,36 @@ It allows user to reorganize selected columns/rows to obtain desired view of the
 
 ## Build instructions 
 
-activate python virtual env 
+*Activate python virtual env 
 
 ```sh
 . /usr/lib/ckan/default/bin/activate
 ```
 
-clone git repository
+*Clone git repository
 
 ```sh
 git clone https://github.com/routetopa/ckanext-pivottable.git
 cd ckanext-pivottable
 ```
 
-build the plugin
+*Build the plugin
 
 ```sh
 python setup.py develop
 ```
 
-Add 'pivottable' plugin to CKAN config file :
+*Add 'pivottable' plugin to CKAN config file :
 ```sh
 ckan.plugins = stats text_view recline_view pivottable
 ```
 
-Add 'pivottable' as view in CKAN config file :
+*Add 'pivottable' as view in CKAN config file :
 ```sh
 ckan.views.default_views = image_view text_view recline_view pivottable
 ```
 
-start ckan
+*Start ckan
 ```sh
 paster serve /etc/ckan/default/development.ini
 ```
