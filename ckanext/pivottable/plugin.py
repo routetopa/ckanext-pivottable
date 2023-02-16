@@ -28,7 +28,7 @@ class PivottablePlugin(plugins.SingletonPlugin):
                }
 
     def can_view(self, data_dict):
-    	resource = data_dict['resource']
+        resource = data_dict['resource']
         _format = resource.get('format', None)
         if (resource.get('datastore_active') or resource.get('url') == '_datastore_only_resource'):
             return True 
@@ -38,7 +38,7 @@ class PivottablePlugin(plugins.SingletonPlugin):
             return False
 
     def view_template(self, context, data_dict):
-    	return "pivottable-view.html"
+        return "pivottable-view.html"
 
     def setup_template_variables(self, context, data_dict):
         return {'resource_json': json.dumps(data_dict['resource']),
